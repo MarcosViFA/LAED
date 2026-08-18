@@ -1,0 +1,2 @@
+Letra 'a', 'b' e 'c' ja implementadas em Q4-6.py
+Letra 'd': Cada nó ganha um campo extra (o mínimo local), então o custo extra é O(n), proporcional ao numero de elementos na pilha, não O(1) global.

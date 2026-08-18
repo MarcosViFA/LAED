@@ -1,0 +1,3 @@
+Letra 'a' ja implementado em Q6-6.py
+Letra 'b': Definindo o potencial como o dobro do tamanho de P1, cada enqueue custa 1 mas aumenta o potencial em 2 (amortizado 3), e cada dequeue, mesmo transferindo k elementos (custo real 2k+1), reduz o potencial em 2k, fechando sempre em custo amortizado 1: a transferência já foi paga pelos enqueues anteriores.
+Letra 'c': Sim. A transferência inverte a ordem uma única vez, colocando o elemento mais antigo no topo de P2, de onde o dequeue sempre remove — e como só transfere quando P2 está vazia, a ordem nunca se mistura.

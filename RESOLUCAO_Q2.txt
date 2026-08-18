@@ -1,0 +1,3 @@
+Letra 'a' e 'b' ja impementadas no arquivo Q2-6.py.
+Letra 'c': Quando a ultima remoçao esvazia a fila, é preciso zerar os dois ponteiros, inicio e fim, não só inicio.
+Se apenas inicio for zerado e fim não, o fim continua apontando pro nó removido.

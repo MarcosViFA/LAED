@@ -1,0 +1,2 @@
+Letra 'a' e 'c' ja implementadas em Q5-6.py
+Letra 'b': O laço percorre cada caractere uma vez, e cada operação de pilha é O(1), dando O(n) de tempo, e como no pior caso todos os caracteres podem ficar empilhados ao mesmo tempo, o espaço usado também é O(n).

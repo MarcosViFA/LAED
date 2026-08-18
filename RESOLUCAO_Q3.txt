@@ -1,0 +1,4 @@
+Letra 'a' ja implementada em Q3-6.py
+Letra 'b': Tempo: O(n) — as duas etapas (esvaziar a fila empilhando, depois desempilhar reenfileirando) fazem 2n operações no total, cada uma O(1).
+Espaço: O(n) — a pilha auxiliar chega a guardar todos os n elementos simultaneamente, logo apos a primeira etapa.
+Letra 'c': Sim. É o mesmo algoritmo de inverter uma lista simplesmente encadeada, usando três variáveis (anterior, atual, proximo) pra inverter cada ligação next.

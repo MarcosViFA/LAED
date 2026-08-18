@@ -1,0 +1,2 @@
+Letra 'a' e 'b' ja impementadas no arquivo Q1-6.py.
+Letra c: Porque uma vez que topo = topo.next é executado, a única referência ao nó antigo se perde. Se o nó fosse liberado da memória antes de atualizar topo, o ponteiro topo ficaria apontando pra uma área já desalocada.

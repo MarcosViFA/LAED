@@ -1,0 +1,4 @@
+Letra 'b' ja implementada em Q7-6.py
+Letra 'a': Os números 480 e 481 têm o mesmo dígito na casa das dezenas (8), mas chegam nessa passagem na ordem 480, depois 481 (herdada da passagem anterior). Com fila, essa ordem é preservada e o resultado final sai correto.
+Com pilha, a ordem se inverteria para 481, 480 nesse bucket — e como a centena dos dois também é igual (4), essa inversão sobreviveria até o final, produzindo a saída errada.
+Letra 'c': Com L o comprimento das chaves e σ o tamanho do alfabeto, o Radix Sort fica em O(L × n), contra O(L × n log n) do Merge Sort — a vantagem vem de não comparar strings inteiras entre si, evitando o fator log n, mas só compensa quando σ e L são pequenos e não crescem com n.
